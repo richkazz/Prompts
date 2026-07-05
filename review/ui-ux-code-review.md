@@ -1,3 +1,20 @@
+---
+title: "UI/UX Code Review"
+description: "A senior product designer prompt for performing design QA passes and identifying UI/UX inconsistencies."
+category: "review"
+tags: [ui, ux, design, audit, accessibility]
+compatible_models: [Claude, GPT-4, any]
+author: "Oghenekaro Edaware"
+added: "2026-07-05"
+---
+
+# UI/UX Code Review
+
+This prompt acts as a senior product designer and UI reviewer to perform a design QA pass on an existing codebase.
+
+## Prompt
+
+```markdown
 # UI/UX Code Review Agent — Prompt
 
 Copy everything below into your coding agent (Claude Code, Cursor, etc.).
@@ -106,3 +123,4 @@ Spec source: [documented spec found at X / inferred from codebase patterns]
 - Do not invent a design opinion the spec doesn't support; when you're recommending something purely subjective (not spec-derived), label it clearly as **"suggestion"** vs **"spec violation"**.
 - Do not edit, refactor, or fix any code in this pass. Output is the report only.
 - If the codebase is large, prioritize the most-trafficked/shared components and top-level pages first, and note in the report if any areas were out of scope due to size.
+```

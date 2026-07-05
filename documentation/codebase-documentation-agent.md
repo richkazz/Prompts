@@ -1,3 +1,20 @@
+---
+title: "Codebase Functionality Documentation Agent"
+description: "A senior engineer prompt for writing functional documentation for an existing codebase."
+category: "documentation"
+tags: [documentation, codebase-mapping, onboarding]
+compatible_models: [Claude, GPT-4, any]
+author: "Oghenekaro Edaware"
+added: "2026-07-05"
+---
+
+# Codebase Functionality Documentation Agent
+
+This prompt is designed to help a senior engineer write functional documentation for an existing codebase, mapping out its structure and interactions.
+
+## Prompt
+
+```markdown
 # Codebase Functionality Documentation Agent — Prompt
 
 Copy everything below into your coding agent (Claude Code, Cursor, etc.).
@@ -87,3 +104,4 @@ Generated: [date]
 - Do not guess at intent when code is ambiguous or looks dead — list it under "Open Questions" instead of assuming.
 - Do not edit, refactor, or add comments to any source file. Output is the documentation file only.
 - If the codebase is large, document the most user-facing and most-depended-on functionality first, and explicitly note in the report which areas were out of scope due to size, so a follow-up pass can pick up where this one left off.
+```
