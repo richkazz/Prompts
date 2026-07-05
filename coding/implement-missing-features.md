@@ -1,3 +1,20 @@
+---
+title: "Implement Missing Features"
+description: "A senior developer prompt for implementing gaps found in a feature audit, matching existing style and patterns."
+category: "coding"
+tags: [implementation, feature-parity, senior-dev]
+compatible_models: [Claude, GPT-4, any]
+author: "Oghenekaro Edaware"
+added: "2026-07-05"
+---
+
+# Implement Missing Features
+
+This prompt is designed to help a senior developer pick up a gap-analysis report and implement the missing pieces properly.
+
+## Prompt
+
+```markdown
 # Implement Missing Features — Prompt
 
 Copy everything below into your coding agent (Claude Code, Cursor, etc.). Run the **Missing & Incomplete Features Audit** prompt first — this prompt consumes its output.
@@ -70,3 +87,4 @@ Source report: [path to the missing-features report used]
 - Never fix more than what was asked — if you notice an unrelated bug while implementing, note it in Follow-up Recommendations rather than fixing it inline, unless the user has asked you to also clean up as you go.
 - Never leave the codebase in a worse or half-changed state — if an item turns out to be larger than expected mid-implementation, finish it properly or revert it; don't leave partial edits in place.
 - Ask before making any change that alters an existing working feature's behavior, not just before adding a new one.
+```

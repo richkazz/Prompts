@@ -1,0 +1,25 @@
+name: Suggest a Prompt
+description: Suggest a new AI prompt for the collection
+labels: ["enhancement", "prompt-suggestion"]
+body:
+  - type: textarea
+    id: prompt_description
+    attributes:
+      label: Prompt Description
+      description: What does this prompt do and why is it useful?
+    validations:
+      required: true
+  - type: textarea
+    id: prompt_text
+    attributes:
+      label: Proposed Prompt Text
+      description: The actual text of the prompt (if you have it).
+    validations:
+      required: false
+  - type: input
+    id: category
+    attributes:
+      label: Suggested Category
+      placeholder: e.g., coding, creative, business
+    validations:
+      required: false

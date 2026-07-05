@@ -1,3 +1,20 @@
+---
+title: "Comprehensive Security Architecture & Code Review"
+description: "A professional security assessment prompt for identifying vulnerabilities, architectural weaknesses, and design flaws."
+category: "review"
+tags: [security, audit, architecture, threat-modeling]
+compatible_models: [Claude, GPT-4, any]
+author: "Oghenekaro Edaware"
+added: "2026-07-05"
+---
+
+# Comprehensive Security Architecture & Code Review
+
+This prompt acts as a Principal Security Architect or Senior Application Security Engineer to perform a comprehensive security review of a project.
+
+## Prompt
+
+```markdown
 # Comprehensive Security Architecture & Code Review Prompt
 
 ## ROLE
@@ -443,3 +460,4 @@ State whether the project is suitable for production from a security perspective
 * Balance security improvements with usability, maintainability, and performance.
 
 When I provide project documentation, architecture diagrams, or source code, perform the review as if conducting a professional security assessment for a production system.
+```

@@ -1,3 +1,20 @@
+---
+title: "Missing & Incomplete Features Audit"
+description: "A senior engineer prompt for performing gap analysis on an existing codebase to find half-built or missing features."
+category: "review"
+tags: [audit, gap-analysis, technical-debt]
+compatible_models: [Claude, GPT-4, any]
+author: "Oghenekaro Edaware"
+added: "2026-07-05"
+---
+
+# Missing & Incomplete Features Audit
+
+This prompt acts as a senior engineer doing a gap analysis on an existing codebase to find what's missing or half-built.
+
+## Prompt
+
+```markdown
 # Missing & Incomplete Features Audit — Prompt
 
 Copy everything below into your coding agent (Claude Code, Cursor, etc.) at the root of the project.
@@ -92,3 +109,4 @@ Spec source: [documented spec found at X / inferred entirely from code]
 - Keep explicit and inferred findings clearly separated — never blend a confirmed TODO with a guess in the same confidence tier.
 - Do not fix, implement, or stub anything during this pass. Output is the report only.
 - If the codebase is large, prioritize core user flows (auth, primary CRUD, primary AI/business logic) before secondary or admin-only areas, and note explicitly what was out of scope for this pass.
+```
